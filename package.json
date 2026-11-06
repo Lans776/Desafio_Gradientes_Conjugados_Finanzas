@@ -1,0 +1,28 @@
+{
+  "name": "gcp-asignacion-presupuestaria",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Método de Gradientes Conjugados Precondicionado aplicado a la asignación presupuestaria (UMSA, Métodos Numéricos)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/math/__tests__/math.test.ts",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.3.3",
+    "gh-pages": "^6.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
